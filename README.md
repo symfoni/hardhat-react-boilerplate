@@ -4,7 +4,7 @@
 2. Install deps with yarn `yarn` or npm `npm install`
 3. Start hardhat `npx hardhat node --watch`
 
-   ![](https://media.giphy.com/media/9l6z9MzXfHX9gKzbvU/giphy.gif)
+![](https://media.giphy.com/media/9l6z9MzXfHX9gKzbvU/giphy.gif)
 
 ```text
 It runs up a Hardhat node, compile contracts, generates typescript interfaces, creates React context and instantiates your contract instances and factories with frontend provider.
