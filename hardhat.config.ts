@@ -26,14 +26,6 @@ const config: HardhatUserConfig = {
   react: {
     providerPriority: ["web3modal", "hardhat"],
   },
-  networks: {
-    hardhat: {
-      accounts: {
-        mnemonic:
-          "shrug antique orange tragic direct drop abstract ring carry price anchor train",
-      },
-    },
-  },
   solidity: {
     compilers: [
       {
