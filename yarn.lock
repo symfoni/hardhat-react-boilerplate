@@ -603,12 +603,10 @@
   resolved "https://registry.yarnpkg.com/@solidity-parser/parser/-/parser-0.7.1.tgz#660210130e4237476cb55e2882064809f80f861e"
   integrity sha512-5ma2uuwPAEX1TPl2rAPAAuGlBkKnn2oUKQvnhTFlDIB8U/KDWX77FpHtL6Rcz+OwqSCWx9IClxACgyIEJ/GhIw==
 
-"@symfoni/hardhat-react@^0.0.37":
-  version "0.0.37"
-  resolved "https://registry.yarnpkg.com/@symfoni/hardhat-react/-/hardhat-react-0.0.37.tgz#0f48e38acb5f2a969f2586d36a92bcb310f24111"
-  integrity sha512-3UG5+D065v8EIO1qgSDcQwKW3N/r1O9r6aYkn5ji8MZyp6ds5le/xz3bYI/dwpr91vuS4UKzu5CXbe3KjwvaSg==
-  dependencies:
-    debug "^4.2.0"
+"@symfoni/hardhat-react@^0.0.42":
+  version "0.0.42"
+  resolved "https://registry.yarnpkg.com/@symfoni/hardhat-react/-/hardhat-react-0.0.42.tgz#0ba3797cec9aeca5379400c8b9513f7ee6879940"
+  integrity sha512-MrPEH6inJBQpGR1ZAsYONx0o98hOLLl5re/gcM3Z8q2GMT3OIwCTcT+poWuHJ2jJ6/04wo23G4dAvPxBGSsYhg==
 
 "@szmarczak/http-timer@^1.1.2":
   version "1.1.2"
@@ -2323,7 +2321,7 @@ debug@3.2.6, debug@^3.1.0:
   dependencies:
     ms "^2.1.1"
 
-debug@4, debug@^4.1.1, debug@^4.2.0:
+debug@4, debug@^4.1.1:
   version "4.2.0"
   resolved "https://registry.yarnpkg.com/debug/-/debug-4.2.0.tgz#7f150f93920e94c58f5574c2fd01a3110effe7f1"
   integrity sha512-IX2ncY78vDTjZMFUdmsvIRFY2Cf4FnD0wRs+nQwJU8Lu99/tPFdb0VybiiMTPe3I6rQmwsqQqRBvxU+bZ/I8sg==
