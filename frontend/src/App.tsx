@@ -1,7 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import { Hardhat } from "./hardhat/HardhatContext";
+import { Symfoni } from "./hardhat/SymfoniContext";
 import { Greeter } from './components/Greeter';
 
 function App() {
@@ -9,7 +9,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <Hardhat autoInit={true} showLoading={true}>
+        <Symfoni autoInit={true} >
           <img src={logo} className="App-logo" alt="logo" />
           <p>
             Edit <code>src/App.tsx</code> and save to reload.
@@ -23,7 +23,7 @@ function App() {
             Learn React
         </a>
           <Greeter></Greeter>
-        </Hardhat>
+        </Symfoni>
       </header>
     </div>
   );
