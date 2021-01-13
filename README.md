@@ -33,6 +33,12 @@ The default mnemonic currently used by hardhat is `test test test test test test
 
 # FAQ
 
+## Metamask
+
+Ensure you are useing RPC to http://localhost:8545.
+
+You may also need to set the chainID to 1337 if you are useing Hardhat blockchain development node.
+
 ## Invalid nonce.
 
 ```bash
