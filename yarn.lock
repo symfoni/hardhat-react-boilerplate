@@ -597,15 +597,15 @@
   resolved "https://registry.yarnpkg.com/@sindresorhus/is/-/is-0.14.0.tgz#9fb3a3cf3132328151f353de4632e01e52102bea"
   integrity sha512-9NET910DNaIPngYnLLPeg+Ogzqsi9uM4mSboU5y6p8S5DzMTVEsJZrawi+BoDNUVBa2DhJqQYUFvMDfgU062LQ==
 
-"@solidity-parser/parser@^0.7.1":
-  version "0.7.1"
-  resolved "https://registry.yarnpkg.com/@solidity-parser/parser/-/parser-0.7.1.tgz#660210130e4237476cb55e2882064809f80f861e"
-  integrity sha512-5ma2uuwPAEX1TPl2rAPAAuGlBkKnn2oUKQvnhTFlDIB8U/KDWX77FpHtL6Rcz+OwqSCWx9IClxACgyIEJ/GhIw==
+"@solidity-parser/parser@^0.11.0":
+  version "0.11.1"
+  resolved "https://registry.yarnpkg.com/@solidity-parser/parser/-/parser-0.11.1.tgz#fa840af64840c930f24a9c82c08d4a092a068add"
+  integrity sha512-H8BSBoKE8EubJa0ONqecA2TviT3TnHeC4NpgnAHSUiuhZoQBfPB4L2P9bs8R6AoTW10Endvh3vc+fomVMIDIYQ==
 
-"@symfoni/hardhat-react@^0.1.9":
-  version "0.1.9"
-  resolved "https://registry.yarnpkg.com/@symfoni/hardhat-react/-/hardhat-react-0.1.9.tgz#410c33a66dbef1b6ae4675f90aed74b59c7e420f"
-  integrity sha512-H3CU6AUHT+5gcXBqmLC5kyX5uf8uhr9yqOErSGNoXNahd/qUVuDzHi/rbUxNNXLYZzch6jlsBFuwRIlahO+Kgg==
+"@symfoni/hardhat-react@^0.1.13":
+  version "0.1.13"
+  resolved "https://registry.yarnpkg.com/@symfoni/hardhat-react/-/hardhat-react-0.1.13.tgz#60067fd6bb11a61bddece55b0edde349af5b28e0"
+  integrity sha512-msQPu+s6gjlCX+rP66GmTqaVx/mMRs1u8r/ZgTiDEKYicVgKeRi7VVyk4IDslljwMmobM7sV+hjzho8ePLrNkA==
 
 "@szmarczak/http-timer@^1.1.2":
   version "1.1.2"
@@ -1040,12 +1040,12 @@ aws4@^1.8.0:
   resolved "https://registry.yarnpkg.com/aws4/-/aws4-1.11.0.tgz#d61f46d83b2519250e2784daf5b09479a8b41c59"
   integrity sha512-xh1Rl34h6Fi1DC2WWKfxUTVqRsNnr6LsKz2+hfwDxQJWmrx8+c7ylaqBMcHfl1U1r2dsifOvKX3LQuLNZ+XSvA==
 
-axios@^0.19.2:
-  version "0.19.2"
-  resolved "https://registry.yarnpkg.com/axios/-/axios-0.19.2.tgz#3ea36c5d8818d0d5f8a8a97a6d36b86cdc00cb27"
-  integrity sha512-fjgm5MvRHLhx+osE2xoekY70AhARk3a6hkN+3Io1jc00jtquGvxYlKlsFUhmUET0V5te6CcZI7lcv2Ym61mjHA==
+axios@^0.21.1:
+  version "0.21.1"
+  resolved "https://registry.yarnpkg.com/axios/-/axios-0.21.1.tgz#22563481962f4d6bde9a76d516ef0e5d3c09b2b8"
+  integrity sha512-dKQiRHxGD9PPRIUNIWvZhPTPpl1rf/OxTYKsqKUDjBwYylTvV7SjSHJb9ratfyzM6wCdLCOYLzs73qpg5c4iGA==
   dependencies:
-    follow-redirects "1.5.10"
+    follow-redirects "^1.10.0"
 
 babel-code-frame@^6.26.0:
   version "6.26.0"
@@ -2340,13 +2340,6 @@ debug@4, debug@^4.1.1:
   dependencies:
     ms "2.1.2"
 
-debug@=3.1.0:
-  version "3.1.0"
-  resolved "https://registry.yarnpkg.com/debug/-/debug-3.1.0.tgz#5bb5a0672628b64149566ba16819e61518c67261"
-  integrity sha512-OX8XqP7/1a9cqkxYw2yXss15f26NKWBpDXQd0/uK/KPqdQhxbPa994hnzjcE2VqQpDslf55723cKPUOGSmMY3g==
-  dependencies:
-    ms "2.0.0"
-
 debug@^3.1.0:
   version "3.2.7"
   resolved "https://registry.yarnpkg.com/debug/-/debug-3.2.7.tgz#72580b7e9145fb39b6676f9c5e5fb100b934179a"
@@ -3388,12 +3381,10 @@ fmix@^0.1.0:
   dependencies:
     imul "^1.0.0"
 
-follow-redirects@1.5.10:
-  version "1.5.10"
-  resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.5.10.tgz#7b7a9f9aea2fdff36786a94ff643ed07f4ff5e2a"
-  integrity sha512-0V5l4Cizzvqt5D44aTXbFZz+FtyXV1vrDN6qrelxtfYQKW0KO0W2T/hkE8xvGa/540LkZlkaUjO4ailYTFtHVQ==
-  dependencies:
-    debug "=3.1.0"
+follow-redirects@^1.10.0:
+  version "1.13.1"
+  resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.13.1.tgz#5f69b813376cee4fd0474a3aba835df04ab763b7"
+  integrity sha512-SSG5xmZh1mkPGyKzjZP8zLjltIfpW32Y5QpdNJyjcfGxK3qo3NDDkZOZSFiGn1A6SclQxY9GzEwAHQ3dmYRWpg==
 
 follow-redirects@^1.12.1:
   version "1.13.0"
@@ -3729,10 +3720,10 @@ hardhat-deploy-ethers@^0.3.0-beta.7:
   resolved "https://registry.yarnpkg.com/hardhat-deploy-ethers/-/hardhat-deploy-ethers-0.3.0-beta.7.tgz#860d86b84ed3c4fdef64283ccf1e8d5623454d02"
   integrity sha512-JKMNte6vudu9LSNqgmBtNxc1gfxp3NUcPKVAf/FANHfl9pa/mBGg6hpQO7tD8CLkAbe6f4K5BjyYIPWX3p7MKw==
 
-hardhat-deploy@^0.7.0-beta.35:
-  version "0.7.0-beta.35"
-  resolved "https://registry.yarnpkg.com/hardhat-deploy/-/hardhat-deploy-0.7.0-beta.35.tgz#64347ca80c678811db419db6542a699f0883a5f0"
-  integrity sha512-5l0k1xZzrdRZgFGHEGfgypM4PlhqyYBF+ToADz8oTRH+7fwWyK9424MA6qI8z373Ogm7Y0kUQTRqNHicYrepAw==
+hardhat-deploy@^0.7.0-beta.44:
+  version "0.7.0-beta.44"
+  resolved "https://registry.yarnpkg.com/hardhat-deploy/-/hardhat-deploy-0.7.0-beta.44.tgz#e03eb60765d4ecc3711dc7aadaba60c64b1d381c"
+  integrity sha512-eIM8RrLDgD12wINTdduYshxqNP/uz9qMCgao37jl6iiZ2LwHkNTL/X+RtTVfq/vS7bvLW7qpjymHJiak5rd1Pg==
   dependencies:
     "@ethersproject/abi" "^5.0.2"
     "@ethersproject/abstract-signer" "^5.0.2"
@@ -3745,7 +3736,7 @@ hardhat-deploy@^0.7.0-beta.35:
     "@ethersproject/transactions" "^5.0.2"
     "@ethersproject/wallet" "^5.0.2"
     "@types/qs" "^6.9.4"
-    axios "^0.19.2"
+    axios "^0.21.1"
     chalk "^4.1.0"
     chokidar "^3.4.0"
     debug "^4.1.1"
@@ -3755,19 +3746,19 @@ hardhat-deploy@^0.7.0-beta.35:
     murmur-128 "^0.2.1"
     qs "^6.9.4"
 
-hardhat-typechain@^0.3.3:
-  version "0.3.3"
-  resolved "https://registry.yarnpkg.com/hardhat-typechain/-/hardhat-typechain-0.3.3.tgz#cef7996d2054aecd5e6b7677130b2f2b1fe9d352"
-  integrity sha512-NrqP7Zng28prV3YT0lXoo1pXtZxoNCMfiZIWkf1HXjjID42JLLfSOTsvlb0okDMpz4tJaEEkgADJO69sKZxw+Q==
+hardhat-typechain@^0.3.4:
+  version "0.3.4"
+  resolved "https://registry.yarnpkg.com/hardhat-typechain/-/hardhat-typechain-0.3.4.tgz#6d7d86184152b5a3c83bde0fbbb26224b6fbfd70"
+  integrity sha512-oI9YSutDfZnRlAV1bYTpLkBHw4rkhz9JDWAEXz2PR34ylpgLWxPFbPiHT5QXadGTlBqJUAT6JSTxCK1kADMkjA==
 
-hardhat@^2.0.4:
-  version "2.0.4"
-  resolved "https://registry.yarnpkg.com/hardhat/-/hardhat-2.0.4.tgz#f312c79d57d81861d9a837fbb8cb64302735b58f"
-  integrity sha512-TPDthnVJ6JNT38l769rRAJk3tkbGUZEaVSGW6TFXN7OuB08VZMH0dVyvUhnRas9BByFozTfIjr6AgnZ7S8o5PQ==
+hardhat@^2.0.8:
+  version "2.0.8"
+  resolved "https://registry.yarnpkg.com/hardhat/-/hardhat-2.0.8.tgz#6ec232293dd6b3ca7baeadb095ba4afce4b9b2e0"
+  integrity sha512-2tDAtOfshrBzP103dx7PQrhTwv2sqjhQStZAPwkkQTic25o2EH6HYE2++LuOG98YwqSjr0WvhvdBvKl3dCSkYA==
   dependencies:
     "@nomiclabs/ethereumjs-vm" "^4.1.1"
     "@sentry/node" "^5.18.1"
-    "@solidity-parser/parser" "^0.7.1"
+    "@solidity-parser/parser" "^0.11.0"
     "@types/bn.js" "^4.11.5"
     "@types/lru-cache" "^5.1.0"
     abort-controller "^3.0.0"
@@ -6798,10 +6789,10 @@ ts-essentials@^1.0.0:
   resolved "https://registry.yarnpkg.com/ts-essentials/-/ts-essentials-1.0.4.tgz#ce3b5dade5f5d97cf69889c11bf7d2da8555b15a"
   integrity sha512-q3N1xS4vZpRouhYHDPwO0bDW3EZ6SK9CrrDHxi/D6BPReSjpVgWIOpLS2o0gSBZm+7q/wyKp6RVM1AeeW7uyfQ==
 
-ts-essentials@^6.0.3:
-  version "6.0.7"
-  resolved "https://registry.yarnpkg.com/ts-essentials/-/ts-essentials-6.0.7.tgz#5f4880911b7581a873783740ce8b94da163d18a6"
-  integrity sha512-2E4HIIj4tQJlIHuATRHayv0EfMGK3ris/GRk1E3CFnsZzeNV+hUmelbaTZHLtXaZppM5oLhHRtO04gINC4Jusw==
+ts-essentials@^7.0.1:
+  version "7.0.1"
+  resolved "https://registry.yarnpkg.com/ts-essentials/-/ts-essentials-7.0.1.tgz#d205508cae0cdadfb73c89503140cf2228389e2d"
+  integrity sha512-8lwh3QJtIc1UWhkQtr9XuksXu3O0YQdEE5g79guDfhCaU1FWTDIEDZ1ZSx4HTHUmlJZ8L812j3BZQ4a0aOUkSA==
 
 ts-generator@^0.1.1:
   version "0.1.1"
@@ -6903,17 +6894,17 @@ type@^2.0.0:
   resolved "https://registry.yarnpkg.com/type/-/type-2.1.0.tgz#9bdc22c648cf8cf86dd23d32336a41cfb6475e3f"
   integrity sha512-G9absDWvhAWCV2gmF1zKud3OyC61nZDwWvBL2DApaVFogI07CprggiQAOOjvp2NRjYWFzPyu7vwtDrQFq8jeSA==
 
-typechain@^4.0.0:
-  version "4.0.0"
-  resolved "https://registry.yarnpkg.com/typechain/-/typechain-4.0.0.tgz#8a81fe40c4020b370f0c4671b7f966134d20c58c"
-  integrity sha512-XQUojf02bXyxXNGI0WeCphnh++5eWr9wYH8jm0XqHNv8yENpFrRyX8ffVlkhCnDOOB/jEJJVQytLAOU+Qn0N9Q==
+typechain@^4.0.1:
+  version "4.0.1"
+  resolved "https://registry.yarnpkg.com/typechain/-/typechain-4.0.1.tgz#b40eaf5ede15588d97a4b9a5f85120f7ea1cf262"
+  integrity sha512-H/1VpRmplp1qhCTVLU9PCgzyVCQ7Lth7YvaaI1hTvT31IpWnLLNpDpQD4vXJGr26T9BsZ0ZIceOwieAbcoywXw==
   dependencies:
     command-line-args "^4.0.7"
     debug "^4.1.1"
     fs-extra "^7.0.0"
     js-sha3 "^0.8.0"
     lodash "^4.17.15"
-    ts-essentials "^6.0.3"
+    ts-essentials "^7.0.1"
     ts-generator "^0.1.1"
 
 typedarray-to-buffer@^3.1.5:
