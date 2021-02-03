@@ -602,10 +602,10 @@
   resolved "https://registry.yarnpkg.com/@solidity-parser/parser/-/parser-0.11.1.tgz#fa840af64840c930f24a9c82c08d4a092a068add"
   integrity sha512-H8BSBoKE8EubJa0ONqecA2TviT3TnHeC4NpgnAHSUiuhZoQBfPB4L2P9bs8R6AoTW10Endvh3vc+fomVMIDIYQ==
 
-"@symfoni/hardhat-react@^0.1.13":
-  version "0.1.13"
-  resolved "https://registry.yarnpkg.com/@symfoni/hardhat-react/-/hardhat-react-0.1.13.tgz#60067fd6bb11a61bddece55b0edde349af5b28e0"
-  integrity sha512-msQPu+s6gjlCX+rP66GmTqaVx/mMRs1u8r/ZgTiDEKYicVgKeRi7VVyk4IDslljwMmobM7sV+hjzho8ePLrNkA==
+"@symfoni/hardhat-react@^0.1.14":
+  version "0.1.14"
+  resolved "https://registry.yarnpkg.com/@symfoni/hardhat-react/-/hardhat-react-0.1.14.tgz#9bf0e1f4187d3809d440f4c08036dc9f83c693ae"
+  integrity sha512-2vJfvUxoGxUmA22rUZIEcyPl6yDgy93a/DKabByQPYYalCXCSEOgQw8FSKA5xR/rhtutljZxCjkhIndzh5Gyuw==
 
 "@szmarczak/http-timer@^1.1.2":
   version "1.1.2"

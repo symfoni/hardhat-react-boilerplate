@@ -26,6 +26,23 @@ const config: HardhatUserConfig = {
   react: {
     providerPriority: ["web3modal", "hardhat"],
   },
+  networks: {
+    hardhat: {
+      inject: false, // optional. If true, it will EXPOSE your mnemonic in your frontend code. Then it would be available as an "in-page browser wallet" / signer which can sign without confirmation.
+      accounts: {
+        mnemonic: "test test test test test test test test test test test junk", // test test test test test test test test test test test junk
+      },
+    },
+    // hardhat: {
+    //   accounts: [
+    //     {
+    //       balance: "10000000000000000000000",
+    //       privateKey:
+    //         "0x42a83b2f93bfd68a0269c8c465c1d8b8440fa45cb6be3a739c01b0800cd96ac0",
+    //     },
+    //   ],
+    // },
+  },
   solidity: {
     compilers: [
       {

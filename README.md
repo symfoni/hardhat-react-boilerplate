@@ -19,7 +19,9 @@ It runs up a Hardhat node, compile contracts, generates typescript interfaces, c
 
 Because of this default hardhat.config.ts it will first try to connect with an injected provider like Metamask (web3modal package does this).
 
-If nothing found it will try to connect with your hardhat node. On localhost and hardhat nodes it will inject your mnemonic into the frontend so you have a "browser wallet" that can both call and send transactions. NB! Dont ever put a mnemonic with actual value here. We will limit this feature going forward so its more explicit.
+If nothing found it will try to connect with your hardhat node. On localhost and hardhat nodes it will inject your mnemonic into the frontend so you have a "browser wallet" that can both call and send transactions. NB! Dont ever put a mnemonic with actual value here.
+
+In hardhat.config.ts there is example on how to instruct your hardhat-network to use mnemonic or privatekey.
 
 ```ts
 const config: HardhatUserConfig = {
@@ -51,4 +53,4 @@ Reset your account in Metamask.
 - [ethers.js v5 ⺦](https://github.com/ethers-io/ethers.js#readme)
 - [web3modal 💸](https://github.com/Web3Modal/web3modal#web3modal)
 - [ts-morph 🏊‍♂️](https://github.com/dsherret/ts-morph)
-- [@symfoni/hardhat-react 🎻(our own)](https://github.com/symfoni/buidler-plugins)
+- [@symfoni/hardhat-react 🎻(our own)](https://www.npmjs.com/package/@symfoni/hardhat-react)
