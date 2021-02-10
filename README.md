@@ -11,11 +11,18 @@ It runs up a Hardhat node, compile contracts, generates typescript interfaces, c
 ```
 
 4. Open up a new terminal
-5. `cd frontend`
-6. Install deps with yarn `yarn` or npm `npm install`
+5. Enter the frontend directory: `cd frontend`
+6. Install dependencies: `npm install`
 7. Import seed phrase in Metamask. The default mnemonic currently used by hardhat is `test test test test test test test test test test test junk`
+  1. Please note that you need to sign out from your current Metamask wallet to import a new one. **Instead of logging out**, you can use a new browser profile to do your Ethereum development:
+  3. Click your profile icon in the top right corner of Chrome (right next to the hamburger menu icon)
+  4. Click "Add"
+  5. Give the profile a name and click "Add"
+  6. In this new browser window, install Metamask and import the keyphrase above
 8. Ensure Metamask RPC is set to `http://localhost:8545` and chainID `31337`.
-9. Start React app with yarn `yarn start` or npm `npm start`. The frontend should start up at http://localhost:3000/.
+9. Start the React app: `npm start`
+
+The frontend should open at http://localhost:3000/
 
 Because of this default hardhat.config.ts it will first try to connect with an injected provider like Metamask (web3modal package does this).
 
