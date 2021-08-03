@@ -37,5 +37,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@ethersproject/contracts": "^5.4.1",
+    "@ethersproject/providers": "^5.4.3"
   }
 }
