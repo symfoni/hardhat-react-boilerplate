@@ -1,3 +1,5 @@
+## IMPORTANT NOTE: THIS REPO IS DEPRECATED.
+
 # Get started
 
 1. Clone the repo and cd into it `git clone https://github.com/symfoni/hardhat-react-boilerplate.git MyProject && cd MyProject`
